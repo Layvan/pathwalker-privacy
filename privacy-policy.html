@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pathwalker — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 2.5rem 1.25rem; max-width: 44rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1b1b1b; background: #fff;
+  }
+  h1 { font-size: 2rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .effective { color: #666; margin-top: 0; }
+  .summary {
+    background: #f4efe2; border: 1px solid #d9c99a; border-radius: 8px;
+    padding: 1rem; margin: 1.5rem 0;
+  }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: .4rem; }
+  footer { margin-top: 3rem; color: #666; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e0d4; background: #0b0e13; }
+    .effective, footer { color: #9ca3af; }
+    .summary { background: rgba(212,168,83,.12); border-color: #a67c3b; }
+    a { color: #d4a853; }
+  }
+</style>
+</head>
+<body>
+  <h1>Pathwalker Privacy Policy</h1>
+  <p class="effective">Effective November 24, 2026</p>
+  <div class="summary">Pathwalker keeps your data on your phone and makes zero outbound network connections in production. There are no accounts, no advertising, no analytics, no in-app purchases, and no servers that receive your steps, walks, or location.</div>
+    <section>
+      <h2>The short version</h2>
+      <p>Pathwalker reads your step count and, during a walk you start yourself, your location. All of it is stored on your device and used only to move your walker along your chosen journey.</p>
+      <p>None of it is transmitted to us or to anyone else. We do not operate a server that receives your health or location data, because the app does not send it anywhere.</p>
+    </section>
+    <section>
+      <h2>Health and fitness data</h2>
+      <p>To advance your journey, Pathwalker reads your daily step count from one of the following, depending on your device and what you have allowed:</p>
+      <ul>
+        <li>Health Connect (Android), including background access if you grant it, so your journey stays current while the app is closed.</li>
+        <li>Apple Health (iOS).</li>
+        <li>Your phone's built-in step counter sensor, when a health provider is unavailable.</li>
+      </ul>    </section>
+    <section>
+      <h2>How your step data is used</h2>
+      <p>Step counts are converted into journey miles and stored on your device, alongside your walk history and journey progress. This processing happens entirely on your phone.</p>
+      <p>Your health data is never used for advertising, never sold, never shared with third parties, and never transmitted off your device by Pathwalker. It is not used to build a profile of you, and it is not combined with data from any other source.</p>
+      <p>You can revoke Pathwalker's access at any time in Health Connect (Android) or the Health app (iOS). The app will continue to work; it simply stops advancing your journey.</p>
+    </section>
+    <section>
+      <h2>Location</h2>
+      <p>If you start a walk in the app, Pathwalker uses your location to measure the distance you cover, including while the app is in the background so a walk is not cut short when your screen locks. A notification is shown for the duration, as Android requires.</p>
+      <p>Location is used to calculate distance and is stored on your device as part of that walk's record. It is not transmitted anywhere, and no location history is built beyond the walks you choose to record.</p>
+      <p>Passive step tracking does not use location at all. If you never start a walk, Pathwalker never requests your position.</p>
+    </section>
+    <section>
+      <h2>What we do not do</h2>
+      <p>To be unambiguous, Pathwalker does not:</p>
+      <ul>
+        <li>Require or offer an account, login, or email address.</li>
+        <li>Contain advertising, ad SDKs, or advertising identifiers.</li>
+        <li>Contain analytics or behavioural tracking of any kind.</li>
+        <li>Sell, rent, or share your personal information with third parties.</li>
+        <li>Transmit your steps, walks, location, or health data off your device.</li>
+      </ul>    </section>
+    <section>
+      <h2>Network connections</h2>
+      <p>Production builds of Pathwalker operate with a 100% zero-outbound-network posture. Over-the-air update checks (expo-updates) are disabled in production, so the app never contacts external servers on launch or in the background; software updates are delivered solely through Google Play or your device's app store.</p>
+      <p>Pathwalker's periodic background step sync on Android is scheduled with NetworkType.NOT_REQUIRED, so passive step syncing, journey progress, milestone notifications, and the home-screen widget work 100% offline — including on trails without cell coverage or in airplane mode — without requiring or opening a network connection.</p>
+    </section>
+    <section>
+      <h2>Free edition — no purchases or billing</h2>
+      <p>Pathwalker is completely free. Every route, Waystation ride, care parcel, and cottage keepsake is included at no cost, with no in-app purchases, subscriptions, paywalls, or billing SDKs.</p>
+      <p>All Waystation stable provisions and cottage keepsakes are stored locally on your device alongside your journey progress, and nothing is transmitted off your phone.</p>
+    </section>
+    <section>
+      <h2>Diagnostics and crash logs</h2>
+      <p>When Pathwalker encounters an error, it records a diagnostic entry — the error message and where it occurred — on your device so problems can be identified. These logs are stored locally and are not sent anywhere automatically.</p>
+      <p>You can view them under Settings, and you may choose to share one with us to report a problem. That only happens when you explicitly choose to share it. Diagnostic entries deliberately exclude your step counts, location, and walk history.</p>
+    </section>
+    <section>
+      <h2>Your control over your data</h2>
+      <p>Because everything is stored locally, you have direct control over all of it:</p>
+      <ul>
+        <li>Settings → Reset All Progress cleanly erases your local walking history, journey progress, traveler, cottage memory and workshop crafts, achievements, and claimed Waystation progress from the device in the Free Edition.</li>
+        <li>Uninstalling Pathwalker removes all local app data from your device.</li>
+        <li>Revoking permissions in Health Connect, Apple Health, or Android settings stops any further step or location reads immediately.</li>
+      </ul>    </section>
+    <section>
+      <h2>Children</h2>
+      <p>Pathwalker is not directed at children under 13, and we do not knowingly collect personal information from them. Since the app collects no data to a server, there is nothing for us to hold or delete on request; removing the app removes the data.</p>
+    </section>
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes materially, the updated version will ship with the app and the effective date above will change. Because the app stores nothing remotely, changes cannot apply retroactively to data we hold — we hold none.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this policy or how Pathwalker handles your data can be sent to layvan.business@gmail.com.</p>
+    </section>
+  <footer>
+    Contact: <a href="mailto:layvan.business@gmail.com">layvan.business@gmail.com</a>
+  </footer>
+</body>
+</html>
